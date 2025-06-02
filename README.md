@@ -64,14 +64,14 @@ Bot: Hello John! How can I help you today?
 ## Features in Detail
 
 ### Context Awareness
-- Remembers user's name throughout the conversation
-- Tracks greeting state
-- Maintains conversation context
+- Remembers user's name throughout the conversation.
+- Tracks greeting state.
+- Maintains conversation context.
 
 ### Error Handling
-- Graceful handling of invalid inputs
-- Recovery from unexpected errors
-- Keyboard interrupt handling (Ctrl+C)
+- Graceful handling of invalid inputs.
+- Recovery from unexpected errors.
+- Keyboard interrupt handling (Ctrl+C).
 
 ### Mathematical Capabilities
 - Basic arithmetic operations
