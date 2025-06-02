@@ -80,7 +80,7 @@ Bot: Hello John! How can I help you today?
 ## Contributing
 
 Feel free to contribute to this project by:
-1. Forking the repository
-2. Creating a new branch
-3. Making your changes
-4. Submitting a pull request
+1. Forking the repository.
+2. Creating a new branch.
+3. Making your changes.
+4. Submitting a pull request.
