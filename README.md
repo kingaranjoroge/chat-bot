@@ -1,86 +1,46 @@
-# Enhanced Python Chatbot
+# CryptoBuddy - Your AI-Powered Cryptocurrency Advisor 🤖
 
-A simple yet powerful chatbot built with Python using the ChatterBot library. This chatbot features context awareness, mathematical capabilities, and a user-friendly interface.
+A rule-based chatbot that provides cryptocurrency investment advice based on profitability and sustainability metrics.
 
 ## Features
 
-- 🤖 Natural language processing using ChatterBot
-- 📝 Context awareness (remembers user's name and conversation state)
-- 🔢 Mathematical evaluation capabilities
-- 💬 Interactive command system
-- ⚡ Error handling and graceful recovery
-- 🎯 Simple and intuitive user interface
+- 💡 Smart analysis of cryptocurrency trends
+- 🌱 Sustainability-focused recommendations
+- 📊 Market performance insights
+- 🤝 User-friendly conversational interface
 
-## Prerequisites
+## How to Run
 
-Before running the chatbot, make sure you have the following installed:
+1. Make sure you have Python 3.6+ installed
+2. Clone this repository
+3. Run the chatbot:
+   ```bash
+   python crypto_advisor.py
+   ```
 
-- Python 3.6 or higher
-- pip (Python package installer)
+## Usage Examples
 
-## Installation
-
-1. Clone this repository or download the source code.
-
-2. Install the required packages:
-```bash
-pip install chatterbot
-pip install chatterbot-corpus
-python -m spacy download en_core_web_sm
-```
-
-## Usage
-
-1. Run the chatbot:
-```bash
-python chatbot.py
-```
-
-2. Available Commands:
-- `help`: Display available commands
-- `exit`: End the conversation
-- `name: YourName`: Set your name for personalized responses
-
-3. Example Interactions:
-```
-You: help
-Bot: [Displays available commands]
-
-You: name: John
-Bot: Nice to meet you, John!
-
-You: What is 2 + 2?
-Bot: The answer is 4
-
-You: Hello
-Bot: Hello John! How can I help you today?
-```
+Try asking the chatbot questions like:
+- "Which crypto is most sustainable?"
+- "What's trending in crypto?"
+- "What should I invest in?"
+- "Which coin is eco-friendly?"
 
 ## Project Structure
 
-- `chatbot.py`: Main chatbot implementation
-- `database.db`: SQLite database for storing conversation data (created automatically)
+- `crypto_advisor.py`: Main chatbot implementation
+- `README.md`: Project documentation
 
-## Features in Detail
+## Disclaimer
 
-### Context Awareness
-- Remembers user's name throughout the conversation
-- Tracks greeting state
-- Maintains conversation context
+This chatbot provides educational purposes only. Cryptocurrency investments carry significant risks. Always do your own research before making investment decisions.
 
-### Error Handling
-- Graceful handling of invalid inputs
-- Recovery from unexpected errors
-- Keyboard interrupt handling (Ctrl+C)
+## How It Works
 
-### Mathematical Capabilities
-- Basic arithmetic operations
-- Mathematical expression evaluation
+The chatbot uses a rule-based system to analyze cryptocurrency data based on:
+- Price trends
+- Market capitalization
+- Energy efficiency
+- Sustainability scores
 
-## Contributing
-
-Feel free to contribute to this project by:
-1. Forking the repository.
-2. Creating a new branch.
-3. Making your changes.
-4. Submitting a pull request.
+It provides recommendations by balancing these factors and matching them to user queries.
